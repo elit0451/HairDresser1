@@ -31,6 +31,7 @@ namespace HairDresser
             new Thread(new ThreadStart(Work)).Start();
         }
 
+
         public void Work()
         {
             for (int i = 0; i < _periods; i ++)
